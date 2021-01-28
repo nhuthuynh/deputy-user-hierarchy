@@ -1,12 +1,16 @@
 {
   "name": "deputy-users-hierarchy",
   "version": "1.0.0",
+  "main": "./src/index.js",
   "description": "Users Hierarchy - A user with higher position can get list of his or her subordinates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhuthuynh/deputy-user-hierarchy.git"
+  },
   "engines": {
     "node": "10.16.0",
     "npm": "6.14.11"
   },
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "node src/index.js"
